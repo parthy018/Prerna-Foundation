@@ -80,8 +80,20 @@
 }
 
 .owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav,
 .owl-carousel button.owl-dot {
+    margin-left: auto;
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav,
+.owl-carousel button.owl-dot {
+    margin-right: auto;
     background: 0 0;
     color: inherit;
     border: none;
